@@ -1,0 +1,38 @@
+[
+  {
+    "id": 6,
+    "type": "Web design ",
+    "title": " Coffee",
+    "exper1": "Photoshop",
+    "exper2": "HTML ",
+    "exper3": "CSS",
+    "exper4": "jQuery",
+    "term": "2021.09~2021.10",
+    "url": "http://jeongyoon.dothome.co.kr/work_02/_main.html",
+    "content": "일반적인 커피브랜드의 리뉴얼 페이지를 고민하다가 새로운 접근을 하게되었습니다. 상업적인 페이지 보다는 커피에 대해서를 중심으로 시각적인 요소을 많이 부여하여 표현해보았습니다. 메인컬러와 디자인을 구상하는데 보다 많은 기간이 걸렸습니다. 커피에 빠져있는 듯한 애니메이션요소와인스타적인 대형카페의 느낌을 더해 표현해보았습니다."
+  },
+  {
+    "id": 7,
+    "type": "Web design",
+    "title": "Travel",
+    "exper1": "Photoshop",
+    "exper2": "HTML ",
+    "exper3": "CSS",
+    "exper4": "jQuery",
+    "term": "2021.10~2021.11",
+    "url": "http://jeongyoon.dothome.co.kr/work_01/loding/index.html",
+    "content": " 금융과 무역을 중심으로 다양한 문화와 다민족이 어울려 살고 있는Singapore! 반짝이는 바다와 맛있는 차모로 전통 음식 그리고 쇼핑 등 빼놓을 수 없는 요소들을 두루 갖추고 있는 휴양지 Guam. 아시아의 자유감성, 역동적인 미래도시인 Taiwan! 말레이시아 연방 수도이자 최대 도시로서 아시아 최고의 국제도시로 떠오르는 도시인 Kuala Lumpur. 의미있던 추억을 다시 회상하며 만든 작품이며 저의 특성과 성격을 엿볼 수 있는 웹페이지라고 생각합니다."
+  },
+  {
+    "id": 8,
+    "type": "Web design",
+    "title": "Harry Potter",
+    "exper1": "Photoshop",
+    "exper2": "HTML ",
+    "exper3": "CSS",
+    "exper4": "jQuery",
+    "term": "2021.11~2022.01",
+    "url": "http://jeongyoon.dothome.co.kr/work_03/_sub01.html",
+    "content": "위 작품은 올해 20주년을 맞은 20세기 영미문학의 대표작품인 '해리포터'의 웹사이트 입니다. 지극히 개인적인 주제이지만 만들면서 가장 재밌었고 힘들었던 작품입니다. 마법이라는 환상적인 요소를 나타내기 위해 신비함을 나타내기 노력했습니다."
+  }
+]

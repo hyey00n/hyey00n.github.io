@@ -1,0 +1,442 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,100;1,200&family=Noto+Sans+KR:wght@100;400&display=swap');
+
+
+
+:root * {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 0px;
+  transition: all 2.2s cubic-bezier(0.5, 0, 0.1, 1);
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color:#000;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color:#000;
+  background-color: fff;
+
+  /*    transition: background-color 1s ease;*/
+}
+
+.noto {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+img {
+  vertical-align: bottom;
+}
+em {
+  flex-shrink: normal;
+}
+
+button {
+  border: none;
+  background: transparent;
+
+
+}
+
+
+
+#logo{
+  float: left;
+  margin: 1rem 0;
+}
+#logo h1{
+  letter-spacing: -3px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#logo a{}
+#logo img{}
+
+nav{
+  float: right;
+}
+nav ul{}
+nav li{
+  float: left;
+  margin-left: 4rem;
+}
+
+nav li::after{
+  content: '';
+  display: block;
+  border-bottom: 5px solid  #ff3636;;
+  width: 0;
+  transition: 0.3s;
+  margin: auto;
+}
+nav li a{
+  font-size: 1.5rem;
+  display: inline-block;
+  line-height: 70px;
+  font-weight: bold;
+
+}
+
+/*hover effect*/
+nav li:hover a{
+  color: #ff3636;
+}
+nav li:hover::after{
+  width: 100%;
+}
+
+.container{
+  width: 1150px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+
+.underline {
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-image: linear-gradient(transparent calc(100% - 3px), #000 3px);
+  background-repeat: no-repeat;
+  background-size: 0% 50%;
+  transition: background-size 0.8s;
+  color: #000;
+  cursor: pointer;
+}
+
+.underline.yellow {
+  background-image: linear-gradient(transparent 60%, #F8CD07 40%);
+}
+
+.underline:hover {
+  background-size: 100% 100%;
+}
+
+.orange {
+  color: #000;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+
+}
+
+.orange:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #F8CD07;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.orange:hover:after {
+  transform: scaleX(1);
+}
+
+
+.imgwrap {
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+
+}
+
+.imgwrap img {
+  width: 140%;
+
+}
+
+.imgwrap:hover img {
+  width: 110%;
+}
+
+.Headerstyle {
+  /* width: 1200px; */
+  /* margin: 0 auto; */
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.913);
+
+}
+
+
+.mainwrap {
+  margin: 0 auto;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
+.mainimg{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 20px;
+ 
+  
+}
+.mainimg img{
+  object-fit: cover;
+}
+
+
+.title {
+  margin-bottom: 100px;
+  text-align: left;
+  
+  
+  
+
+
+
+}
+
+.title h6 {
+  margin: 0 auto;
+  width: 700px;  
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 26px;
+  font-weight: 100;
+  
+
+  
+
+}
+
+.subtitle{
+ width: 100%;
+  /* float: right; */
+  width: 100%;
+  margin-top: 20px;
+}
+.subtitle button{
+  display: block;
+  margin: 0 auto ;
+ }
+
+
+
+.both {
+  clear: both;
+}
+
+
+.image {
+  /* background-image: url(./oda1.jpg); */
+  width: 50%;
+  margin: 0 0 0 250px;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+}
+
+.image img {
+  object-fit: cover;
+  height: 900px;
+}
+
+
+.project {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 100px;
+  /* margin: 50px; */
+  border-radius: 50px;
+  z-index: 50;
+  height: inherit;
+  /* top: -30px; */
+  /* position: relative; */
+}
+
+.row_m {
+  margin: 0 0 150px 0;
+}
+
+.row_m p {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.slider{
+
+  margin:  80px 0;
+  /* border: 1px solid red; */
+}
+
+.slick-slide >div{
+  margin: 0 10px;
+
+}
+
+.slick-list{
+  margin: 0 -10px;
+}
+.card{
+  
+  border: 1px solid #c2c2c2;
+  background: white;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 400px;
+
+}
+
+  .card-top{
+    width: 100%;
+    /* height: 200px; */
+  color: #000;
+  }
+
+  .card-top h1{
+    font-size: 1rem;
+    margin: 10px 20px;
+  }
+
+.card-top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom{
+  margin: 10px 20px;
+  color: 000;
+}
+.card-bottom p{
+  color: 000;
+}
+
+
+
+@media ( max-width: 768px ) {
+  .mainwrap {
+    width: auto;
+    padding: 0rem;
+    height: auto;
+  }
+  
+  .mainwrap_height {
+    height: auto;
+  }
+  
+  .title {
+    float: none;
+    width: auto;
+    padding: 2rem;
+    height: auto;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -120px;
+    justify-content: center;
+  }
+  
+  .title h1 {
+    font-size: 3rem;
+  
+  }
+  .image {
+    float: none;
+    /* background-image: url(./oda1.jpg); */
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image img {
+    width: 300%;
+    object-fit: cover;
+  }
+  .underline_m {
+    margin: 0px 0;
+  }
+  
+  .display_none{
+    display: none;
+  }
+
+  .container{
+    width: auto;
+   
+  }
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
