@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 let Footerstyle = styled.div`
 padding : 80px 0 ;
-background-color:  #ff3636;
+background-color:  #000;
 width: 100%;
+
 
 li h2{
     font-weight: bold;

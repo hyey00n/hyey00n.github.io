@@ -76,23 +76,19 @@ nav{
 }
 nav ul{}
 nav li{
-  float: left;
-  margin-left: 4rem;
+  
 }
 
 nav li::after{
-  content: '';
+  /* content: '';
   display: block;
   border-bottom: 5px solid  #ff3636;;
   width: 0;
   transition: 0.3s;
-  margin: auto;
+  margin: auto; */
 }
 nav li a{
-  font-size: 1.5rem;
-  display: inline-block;
-  line-height: 70px;
-  font-weight: bold;
+  
 
 }
 
@@ -190,26 +186,33 @@ nav li:hover::after{
 .mainwrap {
   margin: 0 auto;
   height: 100px;
-  padding: 20px;
-  margin-bottom: 50px;
+  /* padding: 20px; */
+  /* margin-bottom: 50px; */
 }
 
 
 .mainimg{
   width: 100%;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
  
   
 }
+
+
 .mainimg img{
-  object-fit: cover;
+  width: 100%;
+  vertical-align: middle;
+  margin: auto 0 ;
+    display: block;
+
 }
 
 
 .title {
-  margin-bottom: 100px;
+  margin-top: 30px;
   text-align: left;
   
   
@@ -236,11 +239,12 @@ nav li:hover::after{
  width: 100%;
   /* float: right; */
   width: 100%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .subtitle button{
   display: block;
   margin: 0 auto ;
+  height: 80px;
  }
 
 
@@ -336,12 +340,28 @@ nav li:hover::after{
 }
 
 
+.c_bg{
+width: 100%;
+  height: 800px;
+  background: #282c34;
+  color: aliceblue;
+  display: table;
+}
+
+.c_bg h1{
+  display: table-cell;
+ vertical-align: middle;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 
 @media ( max-width: 768px ) {
   .mainwrap {
     width: auto;
     padding: 0rem;
-    height: auto;
+    height: inherit;
   }
   
   .mainwrap_height {

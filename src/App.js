@@ -15,8 +15,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import styled from "styled-components";
 import axios from 'axios'
-// import { Routes, Route, Link } from 'react-router-dom'
 
 
 
@@ -26,6 +26,7 @@ function App() {
   let [shoes, setShoes] = useState(data);
   let navigate = useNavigate();
   let [count, setCount] = useState(1);
+
   const settings = {
     dots: true,
     infinite: false,
@@ -60,6 +61,16 @@ function App() {
       }
     ]
   };
+  const StyledLink  = styled(Link)`
+	float: left;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  line-height: 70px;
+  font-weight: bold;
+`;
+
+
 
 
   return (
@@ -70,15 +81,11 @@ function App() {
             <h1>Hye-yoon's PORTFOLIO</h1>
           </div>
           <nav>
-            <ul>
-              <Link to="/"> About</Link>
-              <Link to="/portfolio"> portfolio</Link>
-              <Link to="/cantact"> Cantact</Link>
-
-              {/* <li><a href="#">About</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">Cantact</a></li> */}
-            </ul>
+           <ul>
+              <StyledLink to="/"> About</StyledLink>
+              <StyledLink to="/portfolio"> portfolio</StyledLink>
+              <StyledLink to="/cantact"> Cantact</StyledLink>
+              </ul>
           </nav>
         </div>
       </div>
@@ -86,21 +93,21 @@ function App() {
       <Routes>
       <Route path='/' element={      
         
-      <div className="title container">
+      <div className="title ">
         
         
-        <h6 className='noto'>새 인간에 크고 끓는 우리의 않는 사막이다. 만물은 간에 그들의 보이는 모래뿐일 품었기 고동을 부패뿐이다.
+        <h6 className='noto container'>새 인간에 크고 끓는 우리의 않는 사막이다. 만물은 간에 그들의 보이는 모래뿐일 품었기 고동을 부패뿐이다.
 
           새 동력은 뜨거운지라, 길지 속에 약동하다. 싹이 인생을 공자는 피는 미묘한 투명하되 천지는 것이다.
 
           꾸며 우리의 전인 청춘은 보라. </h6>
         <div className='subtitle'>
-          <form action={"https://raw.githubusercontent.com/hyey00n/content/main/cv.pdf"} method="get">
+          <form action={"https://raw.githubusercontent.com/hyey00n/content/main/cv.jpg"} method="get">
             <button className="yellow underline noto " type="submit" >다운로드</button>
           </form>
         </div>
-        <div className="mainimg">
-
+        
+        <div className="mainimg ">
         <img src='https://github.com/hyey00n/content/blob/main/oda.jpg?raw=true' ></img>
         </div>
 
@@ -171,7 +178,19 @@ function App() {
 
 
         </Route>
-        <Route path='/cantact' element={<div></div>}></Route>
+        <Route path='/cantact' element={<div>
+
+
+
+
+          <div className='c_bg'>
+            <h1 className='noto container'>서비스 준비중입니다. </h1>
+          </div>
+
+
+
+
+        </div>}></Route>
       </Routes>
       <Footer></Footer>
 
