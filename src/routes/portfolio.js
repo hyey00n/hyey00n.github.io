@@ -1,9 +1,13 @@
 
-import data from './data';
-import data2 from './data2';
-import data3 from './data3';
-import data4 from './data4';
+import data from '../data';
+import data2 from '../data2';
+import data3 from '../data3';
+import data4 from '../data4';
 import styled from 'styled-components';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// import styled from "styled-components";
 
 let portfoliostyle  =styled.div`
 
@@ -149,6 +153,7 @@ function portfolio(){
                 </div>
               </div>
             ))}
+        
           </Slider>
         </div>
         );

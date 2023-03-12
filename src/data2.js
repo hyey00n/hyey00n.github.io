@@ -15,7 +15,7 @@ let data2= [
         "exper4": "CSS",
         "term": "2014.03",
         "url": "https://github.com/hyey00n/content/blob/main/repository/banner01.png?raw=true",
-        "content": "40초정도 알람음과 게임이볼톱워치, 타이머 등과 같이 사용할 수 있습니다."
+        "content": "수제 갈비집으로 한국의 정서에 맞는 전통적인 분위기를 살린 배너"
       },
       {
         "id": 4,
@@ -27,7 +27,7 @@ let data2= [
         "exper4": "CSS",
         "term": "2014.03",
         "url": "https://github.com/hyey00n/content/blob/main/repository/banner02.png?raw=true",
-        "content": "40초정도 알람음과 게임이볼톱워치, 타이머 등과 같이 사용할 수 있습니다."
+        "content": "수제 갈비집으로 한국의 정서에 맞는 전통적인 분위기를 살린 배너"
       },
       {
         "type": "banner Design",
@@ -38,7 +38,7 @@ let data2= [
         "exper4": "CSS",
         "term": "2014.03",
         "url": "https://github.com/hyey00n/content/blob/main/repository/banner03.png?raw=true",
-        "content": "40초정도 알람음과 게임이볼톱워치 나타나면 무섭게 방망이를 들고 나타납니다."
+        "content": "2주년 기념으로 밝은 톤과 키치한 디자인을 살린 이벤트 배너 "
       }
       ,
       {
@@ -50,7 +50,7 @@ let data2= [
         "exper4": "CSS",
         "term": "2014.03",
         "url": "https://github.com/hyey00n/content/blob/main/repository/banner04.png?raw=true",
-        "content": "40초정도 알람음과 게임이볼톱워치 나타나면 무섭게 방망이를 들고 나타납니다."
+        "content": "시그니처 컬러인 블루와 따뜻한 라떼의 느낌을 살린 이베트 배너"
       }
       ,
       {
@@ -62,7 +62,7 @@ let data2= [
         "exper4": "CSS",
         "term": "2014.03",
         "url": "https://github.com/hyey00n/content/blob/main/repository/banner05.png?raw=true",
-        "content": "40초정도 알람음과 게임이볼톱워치 나타나면 무섭게 방망이를 들고 나타납니다."
+        "content": "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너"
       }
     
   

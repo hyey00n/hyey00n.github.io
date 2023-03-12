@@ -13,9 +13,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.02",
       url : "https://github.com/hyey00n/content/blob/main/repository/card01.png?raw=true",
-      content : "‘시각장애인 어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "고급 전통 한옥 레즈던트 업체로 캘리그라피를 살린 명함",
     },
     
   
@@ -27,9 +27,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.02",
       url : "https://github.com/hyey00n/content/blob/main/repository/card02.png?raw=true",
-      content : "‘시각장애인 전용도어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "일러스트와 색상으로 시인성을 잡은 명함",
     },
   
     {
@@ -40,9 +40,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.02",
       url : "https://github.com/hyey00n/content/blob/main/repository/card03.png?raw=true",
-      content : "‘시각장애인 전용도 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "쉐보레의 시그니처 컬러를 활요한 명함",
     },
     {
       id : 2,
@@ -52,9 +52,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.03",
       url : "https://github.com/hyey00n/content/blob/main/repository/card04.png?raw=truee",
-      content : "‘시각장애인 전에 배치되어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 명함",
     },
     {
       id : 2,
@@ -64,9 +64,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.03",
       url : "https://github.com/hyey00n/content/blob/main/repository/card05.png?raw=true",
-      content : "‘시각장애인 전용도로어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "해월동의 복합문화센터의 명함 시향지",
     }
     ,
     {
@@ -77,9 +77,9 @@ let data3= [
       exper2 : "illustration",
       exper3 : "HTML",
       exper4 : "CSS",
-      term : "2014.09",
+      term : "2023.03",
       url : "https://github.com/hyey00n/content/blob/main/repository/card06.png?raw=true",
-      content : "‘시각장애인 전치되어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+      content : "원색을 색상과 커피의 일러스트로 표현한 귀여운 명함",
     }
     
     

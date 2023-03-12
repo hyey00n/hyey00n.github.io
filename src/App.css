@@ -68,16 +68,28 @@ button {
   font-size: 2rem;
   font-weight: bold;
 }
-#logo a{}
-#logo img{}
+.logoimg{
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+
+  
+ 
+  
+
+}
+
+.logoimg img{
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
 
 nav{
   float: right;
 }
-nav ul{}
-nav li{
-  
-}
+
 
 nav li::after{
   /* content: '';
@@ -212,7 +224,7 @@ nav li:hover::after{
 
 
 .title {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: left;
   
   
@@ -310,7 +322,7 @@ nav li:hover::after{
   background: white;
   border-radius: 3px;
   overflow: hidden;
-  height: 400px;
+  height: 350px;
 
 }
 
@@ -327,8 +339,10 @@ nav li:hover::after{
 
 .card-top img{
   width: 100%;
-  height: 100%;
+  height: 200px;
+
   object-fit: cover;
+  overflow: hidden;
 }
 
 .card-bottom{
@@ -341,11 +355,13 @@ nav li:hover::after{
 
 
 .c_bg{
-width: 100%;
-  height: 800px;
+  width: 100%;
+  margin-top: 100px;
+  height: 600px;
   background: #282c34;
   color: aliceblue;
   display: table;
+  
 }
 
 .c_bg h1{

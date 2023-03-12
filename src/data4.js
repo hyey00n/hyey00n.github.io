@@ -13,9 +13,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2015.06",
         url : "https://github.com/hyey00n/content/blob/main/repository/alarmux.png?raw=true",
-        content : "‘시각장애인 전용도로 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "두더지알람 UX/UI의 메인스킨",
       },
       
     
@@ -27,9 +27,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2015.06",
         url : "https://github.com/hyey00n/content/blob/main/repository/alarmux2.png?raw=true",
-        content : "‘시각장애인 전용도로는 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "두더지알람 UX/UI의 여러가지 스킨 ",
       },
     
       {
@@ -40,9 +40,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2021.10",
         url : "https://github.com/hyey00n/content/blob/main/repository/travelux.png?raw=true",
-        content : "‘시각장애인 전용도는 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "여행의 예약플랫폼인 KLOOK'의 모티브인 여행의 일정을 볼수 있는 UX/UI  ",
       },
       {
         id : 2,
@@ -52,9 +52,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2021.10",
         url : "https://github.com/hyey00n/content/blob/main/repository/travelux2.png?raw=true",
-        content : "‘시각장애인 전용도어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "여행의 예약플랫폼인 KLOOK'의 모티브인 여행의 일정을 볼수 있는 UX/UI",
       },
       {
         id : 2,
@@ -64,9 +64,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2022.07",
         url : "https://github.com/hyey00n/content/blob/main/repository/ipshopux.png?raw=true",
-        content : "‘시각장애인 전용도치되어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "NFT의 UX/UI 리뉴얼 디자인",
       }
       ,
       {
@@ -77,9 +77,9 @@ let data4= [
         exper2 : "illustration",
         exper3 : "HTML",
         exper4 : "CSS",
-        term : "2014.09",
+        term : "2022.07",
         url : "https://github.com/hyey00n/content/blob/main/repository/ipshopux2.png?raw=true",
-        content : "‘시각장애인 전각에 배치되어 있는 노란색 점자블록이라는 의미를 담고 있습니다.",
+        content : "NFT의 UX/UI 리뉴얼 디자인",
       }
     
   
