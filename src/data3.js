@@ -81,6 +81,32 @@ let data3= [
       url : "https://github.com/hyey00n/content/blob/main/repository/card06.png?raw=true",
       content : "원색을 색상과 커피의 일러스트로 표현한 귀여운 명함",
     }
+    ,
+    {
+      id : 2,
+      type : " cardDesign",
+      title : "라떼는 말이야",
+      exper1 : "Photoshop",
+      exper2 : "illustration",
+      exper3 : "HTML",
+      exper4 : "CSS",
+      term : "2023.03",
+      url : "https://github.com/hyey00n/content/blob/main/repository/card07.png?raw=true",
+      content : "원색을 색상과 커피의 일러스트로 표현한 귀여운 명함",
+    }
+    ,
+    {
+      id : 2,
+      type : " cardDesign",
+      title : "라떼는 말이야",
+      exper1 : "Photoshop",
+      exper2 : "illustration",
+      exper3 : "HTML",
+      exper4 : "CSS",
+      term : "2023.03",
+      url : "https://github.com/hyey00n/content/blob/main/repository/card08.png?raw=true",
+      content : "원색을 색상과 커피의 일러스트로 표현한 귀여운 명함",
+    }
     
     
   

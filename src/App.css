@@ -7,10 +7,11 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: 0px;
-  transition: all 2.2s cubic-bezier(0.5, 0, 0.1, 1);
   box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+  display: none;
+  }
 * {
   margin: 0px;
   padding: 0px;
@@ -23,14 +24,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   color:#000;
   background-color: fff;
-
-  /*    transition: background-color 1s ease;*/
 }
 
 .noto {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR'l, sans-serif;
 }
-
 
 ol,
 ul {
@@ -53,153 +51,42 @@ em {
 button {
   border: none;
   background: transparent;
+}
+
+.mainwrap {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
 
 
 }
-
-
 
 #logo{
-  float: left;
-  margin: 1rem 0;
+width: 50%;
 }
-#logo h1{
-  letter-spacing: -3px;
-  font-size: 2rem;
-  font-weight: bold;
-}
+
 .logoimg{
   width: 200px;
   height: 100px;
   overflow: hidden;
 
-  
- 
-  
-
 }
 
 .logoimg img{
-  width: 100%;
-  margin: 0 auto;
   object-fit: cover;
+  width: 100%;
+
+ 
 }
 
 
 nav{
-  float: right;
-}
-
-
-nav li::after{
-  /* content: '';
-  display: block;
-  border-bottom: 5px solid  #ff3636;;
-  width: 0;
-  transition: 0.3s;
-  margin: auto; */
-}
-nav li a{
+  width: 50%;
   
-
 }
 
-/*hover effect*/
-nav li:hover a{
-  color: #ff3636;
-}
-nav li:hover::after{
-  width: 100%;
-}
-
-.container{
-  width: 1150px;
-  margin: 0 auto;
-  /* border: 1px solid red; */
-}
-
-
-.underline {
-  line-height: 1.2;
-  font-size: 1.2rem;
-  font-weight: 700;
-  background-image: linear-gradient(transparent calc(100% - 3px), #000 3px);
-  background-repeat: no-repeat;
-  background-size: 0% 50%;
-  transition: background-size 0.8s;
-  color: #000;
-  cursor: pointer;
-}
-
-.underline.yellow {
-  background-image: linear-gradient(transparent 60%, #F8CD07 40%);
-}
-
-.underline:hover {
-  background-size: 100% 100%;
-}
-
-.orange {
-  color: #000;
-  display: inline-block;
-  margin: 0;
-  text-transform: uppercase;
-
-}
-
-.orange:after {
-  display: block;
-  content: '';
-  border-bottom: solid 3px #F8CD07;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-}
-
-.orange:hover:after {
-  transform: scaleX(1);
-}
-
-
-.imgwrap {
-  border: 1px solid lightgray;
-  border-radius: 50px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-
-}
-
-.imgwrap img {
-  width: 140%;
-
-}
-
-.imgwrap:hover img {
-  width: 110%;
-}
-
-.Headerstyle {
-  /* width: 1200px; */
-  /* margin: 0 auto; */
-  height: 100vh;
-  color: white;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.913);
-
-}
-
-
-.mainwrap {
-  margin: 0 auto;
-  height: 100px;
-  /* padding: 20px; */
-  /* margin-bottom: 50px; */
+nav ul{
+  float: right;
 }
 
 
@@ -256,7 +143,7 @@ nav li:hover::after{
 .subtitle button{
   display: block;
   margin: 0 auto ;
-  height: 80px;
+  height: 50px;
  }
 
 
@@ -304,7 +191,7 @@ nav li:hover::after{
 
 .slider{
 
-  margin:  80px 0;
+  margin:80px 0;
   /* border: 1px solid red; */
 }
 
@@ -360,9 +247,23 @@ nav li:hover::after{
   height: 600px;
   background: #282c34;
   color: aliceblue;
-  display: table;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
   
 }
+
+.mb-3 label{
+  color: #fff;
+}
+
+.c_bg button{
+  width: 100%;
+}
+
+
 
 .c_bg h1{
   display: table-cell;
@@ -371,108 +272,107 @@ nav li:hover::after{
   font-size: 1.5rem;
   font-weight: 100;
 }
+.formwrap{
+  position: absolute;
+  width: 500px;
+  margin: 0 auto ;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
 
 
-@media ( max-width: 768px ) {
-  .mainwrap {
-    width: auto;
-    padding: 0rem;
-    height: inherit;
-  }
-  
-  .mainwrap_height {
-    height: auto;
-  }
-  
-  .title {
-    float: none;
-    width: auto;
-    padding: 2rem;
-    height: auto;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: -120px;
-    justify-content: center;
-  }
-  
-  .title h1 {
-    font-size: 3rem;
-  
-  }
-  .image {
-    float: none;
-    /* background-image: url(./oda1.jpg); */
-    width: auto;
-    height: 100%;
-    overflow: hidden;
-    position: static;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .image img {
-    width: 300%;
-    object-fit: cover;
-  }
-  .underline_m {
-    margin: 0px 0;
-  }
-  
-  .display_none{
-    display: none;
-  }
+
+
+
+
+@media ( max-width: 789px ) {
 
   .container{
-    width: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mainwrap{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+
+  
+  nav ul{
+    float: none;
+  }
+
+  #logo, nav{
+    width: 100%;
+    
+    }
+  .logoimg{
+    display: block;
+    margin: 0 auto;
+    
+    
+  }
+
+
+  .mainimg{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  
+  
+  .mainimg img{
+    width: 250%;
+    vertical-align: middle;
+    margin: auto 0 ;
+    display: block;
+  
+  }
+  
+  .c_bg{
+    width: 100%;
+    margin-top: 0px;
+    height: 500px;
+    background: #282c34;
+    color: aliceblue;
+  
+    position: relative;
+    top: 0;
+    left: 0;
+  
+    
+  }
+  .formwrap{
+
+      width: 80%;
+
+  }
+nav ul{
+  padding-left: 0rem;
+}
+
+  .title h6 {
+    margin: 0 auto;
+    width: 90%;  
+    text-align: center;
+
    
   }
-}
 
+  .slider{
 
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-
-}
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    margin:50px 0;
+    bottom: 0;
+    padding: 0 0 10px 0;
+    /* border: 1px solid red; */
   }
 
-  to {
-    transform: rotate(360deg);
-  }
+
 }

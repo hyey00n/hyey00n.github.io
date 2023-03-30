@@ -122,7 +122,7 @@ let data= [
     title : "카페63도",
     term : "2014.09",
     url : "https://github.com/hyey00n/content/blob/main/repository/90004-15.png?raw=true",
-    content : "시그니처 컬러인 블루를 사용한 이베트 배너",
+    content : "시그니처 컬러인 블루와 따뜻한 라떼의 느낌을 살린 이베트 배너",
   },
   {
     id : 2,
@@ -132,6 +132,52 @@ let data= [
     url : "https://github.com/hyey00n/content/blob/main/repository/90004-16.png?raw=true",
     content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
   }
+  ,
+  {
+    id : 2,
+    type : "flyers Design",
+    title : "아트블랑 ",
+    term : "2014.09",
+    url : "https://github.com/hyey00n/content/blob/main/repository/90004-17.png?raw=true",
+    content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
+  }
+  ,
+  {
+    id : 2,
+    type : "flyers Design",
+    title : "아트블랑 ",
+    term : "2014.09",
+    url : "https://github.com/hyey00n/content/blob/main/repository/90004-18.png?raw=true",
+    content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
+  }
+  ,
+  {
+    id : 2,
+    type : "flyers Design",
+    title : "아트블랑 ",
+    term : "2014.09",
+    url : "https://github.com/hyey00n/content/blob/main/repository/90004-19.png?raw=true",
+    content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
+  }
+  ,
+  {
+    id : 2,
+    type : "flyers Design",
+    title : "아트블랑 ",
+    term : "2014.09",
+    url : "https://github.com/hyey00n/content/blob/main/repository/90004-20.png?raw=true",
+    content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
+  }
+  ,
+  {
+    id : 2,
+    type : "flyers Design",
+    title : "아트블랑 ",
+    term : "2014.09",
+    url : "https://github.com/hyey00n/content/blob/main/repository/90004-21.png?raw=true",
+    content : "유아미술의 느낌을 강조하기 위해 원색과 일러스트의 배너",
+  }
+  
   
 
 

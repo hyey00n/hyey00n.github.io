@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import { Navbar, Container, Nav, Button, Main ,Form, FormText, FormSelect } from 'react-bootstrap';
-import './App.css';
+import logo from '../logo.svg';
+import { Navbar, Container, Nav, Button, Main ,Form } from 'react-bootstrap';
+import '../App.css';
 import { useState } from 'react';
-import data from './data';
-import data2 from './data2';
-import data3 from './data3';
-import data4 from './data4';
+import data from '../data';
+import data2 from '../data2';
+import data3 from '../data3';
+import data4 from '../data4';
 // import Header from './routes/Header';
-import Footer from './routes/Footer';
-import Mobile from './routes/Mobile';
+import Footer from './Footer';
 
-import portfolio from './routes/portfolio.js';
+
 import { Routes, Route, Link, useNavigate, Outlet } from "react-router-dom";
 import React, { Component } from "react";
 import Slider from "react-slick";
@@ -18,87 +17,72 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import axios from 'axios'
-import companyLogo from './logo.png';
+import companyLogo from '../logo.png';
 import { useMediaQuery } from "react-responsive"
 
 
+function Mobile(){
 
-export const Mobilewrap = ({ children }) => {
-  const isMobile = useMediaQuery({
-    query: "(max-width:768px)"
-  });
-  return <>{isMobile && children}</>
-}
-
-export const Pc = ({ children }) => {
-  const isPc = useMediaQuery({
-    query: "(min-width:769px)"
-  });
-  return <>{isPc && children}</>
-}
-
-function App() {
-let [shoes, setShoes] = useState(data);
-  let navigate = useNavigate();
-  let [count, setCount] = useState(1);
+    
+    let [shoes, setShoes] = useState(data);
+    let navigate = useNavigate();
+    let [count, setCount] = useState(1);
+    
   
-
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true
+    const settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-  const StyledLink = styled(Link)`
-	float: left;
-  margin-left: 4rem;
-  font-size: 1.2rem;
-  display: inline-block;
-  line-height: 100px;
-  font-weight: bold;
-
-
-
-`;
-
-
-
+      ]
+    };
+  
+    const StyledLink = styled(Link)`
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    display: block;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+  
+  
+  
+  `;
 
 
 
   return (
-    <div>
-      <Mobilewrap><Mobile></Mobile></Mobilewrap>
-      <Pc>
-      <div className="mainwrap container">
+    <>
+
+<div className="mainwrap container">
        
        <div id="logo">
          <div className='logoimg'>
@@ -178,7 +162,7 @@ let [shoes, setShoes] = useState(data);
              </div>
            ))}
          </Slider>
- 
+     
          <Slider  {...settings} className="slider">
            {data4.map(item => (
              <div className='card'>
@@ -218,7 +202,7 @@ let [shoes, setShoes] = useState(data);
    </Form.Group>
 
    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Control as="textarea" rows={5} placeholder="내용을 적어주세요" />
+        <Form.Control as="textarea" rows={6} placeholder="내용을 적어주세요" />
       </Form.Group>
    <Form.Group className="mb-3" controlId="formBasicCheckbox">
    </Form.Group>
@@ -235,14 +219,8 @@ let [shoes, setShoes] = useState(data);
      </Route>
    </Routes>
    <Footer></Footer>
-      </Pc>
-      
-    </div>
-  );
+    </>
+  )
 }
 
-
-
-
-
-export default App;
+export default Mobile;
