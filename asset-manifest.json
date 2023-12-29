@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.20ccc676.css",
-    "main.js": "/static/js/main.3cf31ad5.js",
+    "main.js": "/static/js/main.51b9a19a.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
     "static/media/캐핑쉐어.png": "/static/media/캐핑쉐어.24498d38383a583e1ca0.png",
     "static/media/90004-1.png": "/static/media/90004-1.f728678ebc1d192cfc19.png",
@@ -9,11 +9,11 @@
     "static/media/logo.png": "/static/media/logo.7208156a0292b3605f97.png",
     "index.html": "/index.html",
     "main.20ccc676.css.map": "/static/css/main.20ccc676.css.map",
-    "main.3cf31ad5.js.map": "/static/js/main.3cf31ad5.js.map",
+    "main.51b9a19a.js.map": "/static/js/main.51b9a19a.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20ccc676.css",
-    "static/js/main.3cf31ad5.js"
+    "static/js/main.51b9a19a.js"
   ]
 }
