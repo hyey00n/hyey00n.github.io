@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fe78318.css",
-    "main.js": "/static/js/main.b8c530bf.js",
+    "main.css": "/static/css/main.20ccc676.css",
+    "main.js": "/static/js/main.3cf31ad5.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
+    "static/media/캐핑쉐어.png": "/static/media/캐핑쉐어.24498d38383a583e1ca0.png",
     "static/media/90004-1.png": "/static/media/90004-1.f728678ebc1d192cfc19.png",
     "static/media/headimg2.png": "/static/media/headimg2.f976d1b0dc07e8438697.png",
     "static/media/logo.png": "/static/media/logo.7208156a0292b3605f97.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.8fe78318.css.map": "/static/css/main.8fe78318.css.map",
-    "main.b8c530bf.js.map": "/static/js/main.b8c530bf.js.map",
+    "main.20ccc676.css.map": "/static/css/main.20ccc676.css.map",
+    "main.3cf31ad5.js.map": "/static/js/main.3cf31ad5.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fe78318.css",
-    "static/js/main.b8c530bf.js"
+    "static/css/main.20ccc676.css",
+    "static/js/main.3cf31ad5.js"
   ]
 }
