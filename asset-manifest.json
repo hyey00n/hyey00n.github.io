@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.351fd6e3.css",
-    "main.js": "/static/js/main.24f135f2.js",
+    "main.css": "/static/css/main.88cb2bdb.css",
+    "main.js": "/static/js/main.f7430c3d.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
     "static/media/캐핑쉐어.png": "/static/media/캐핑쉐어.24498d38383a583e1ca0.png",
     "static/media/90004-1.png": "/static/media/90004-1.f728678ebc1d192cfc19.png",
     "static/media/headimg2.png": "/static/media/headimg2.f976d1b0dc07e8438697.png",
+    "static/media/web-tarvel.jpg": "/static/media/web-tarvel.d5809fb3b6a5470ce400.jpg",
+    "static/media/web-cake.jpg": "/static/media/web-cake.384110b6d72c8832d140.jpg",
+    "static/media/web-absolute.jpg": "/static/media/web-absolute.af002bbaa17e60ac60b9.jpg",
+    "static/media/web-harry.jpg": "/static/media/web-harry.e5a5287bb6d0ad2805dc.jpg",
+    "static/media/web-cafe.jpg": "/static/media/web-cafe.8d7860a93929ff5d79c3.jpg",
     "static/media/logo.png": "/static/media/logo.7208156a0292b3605f97.png",
     "index.html": "/index.html",
-    "main.351fd6e3.css.map": "/static/css/main.351fd6e3.css.map",
-    "main.24f135f2.js.map": "/static/js/main.24f135f2.js.map",
+    "main.88cb2bdb.css.map": "/static/css/main.88cb2bdb.css.map",
+    "main.f7430c3d.js.map": "/static/js/main.f7430c3d.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.351fd6e3.css",
-    "static/js/main.24f135f2.js"
+    "static/css/main.88cb2bdb.css",
+    "static/js/main.f7430c3d.js"
   ]
 }
