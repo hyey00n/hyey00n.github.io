@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbe04a30.css",
-    "main.js": "/static/js/main.e749af99.js",
+    "main.css": "/static/css/main.ef095e1d.css",
+    "main.js": "/static/js/main.94c77845.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
     "static/media/Career-black.jpg": "/static/media/Career-black.f86de06b749fef941f98.jpg",
     "static/media/skill-black.jpg": "/static/media/skill-black.59cdfc6f33884e631da2.jpg",
-    "static/media/main-Idcard.jpg": "/static/media/main-Idcard.a81aeb16664ae96a396f.jpg",
-    "static/media/main-web.jpg": "/static/media/main-web.0d1f4257961c389981d7.jpg",
-    "static/media/main-flyer.jpg": "/static/media/main-flyer.8a99a68dd02cb92fe3f2.jpg",
     "static/media/캐핑쉐어.png": "/static/media/캐핑쉐어.24498d38383a583e1ca0.png",
-    "static/media/90004-1.png": "/static/media/90004-1.f728678ebc1d192cfc19.png",
     "static/media/web-telecom.jpg": "/static/media/web-telecom.aa490370cdbdb914e1f9.jpg",
-    "static/media/main-banner.jpg": "/static/media/main-banner.cd2a3a70d5b5c45c9a3d.jpg",
-    "static/media/headimg2.png": "/static/media/headimg2.f976d1b0dc07e8438697.png",
     "static/media/web-kt.jpg": "/static/media/web-kt.acd511d1386ee9389899.jpg",
     "static/media/web-tarvel.jpg": "/static/media/web-tarvel.d5809fb3b6a5470ce400.jpg",
     "static/media/web-cake.jpg": "/static/media/web-cake.384110b6d72c8832d140.jpg",
     "static/media/web-absolute.jpg": "/static/media/web-absolute.af002bbaa17e60ac60b9.jpg",
-    "static/media/main-phone.jpg": "/static/media/main-phone.1cf1798154d62967bd89.jpg",
     "static/media/web-harry.jpg": "/static/media/web-harry.e5a5287bb6d0ad2805dc.jpg",
     "static/media/logo.png": "/static/media/logo.7208156a0292b3605f97.png",
     "index.html": "/index.html",
-    "main.dbe04a30.css.map": "/static/css/main.dbe04a30.css.map",
-    "main.e749af99.js.map": "/static/js/main.e749af99.js.map",
+    "main.ef095e1d.css.map": "/static/css/main.ef095e1d.css.map",
+    "main.94c77845.js.map": "/static/js/main.94c77845.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbe04a30.css",
-    "static/js/main.e749af99.js"
+    "static/css/main.ef095e1d.css",
+    "static/js/main.94c77845.js"
   ]
 }
