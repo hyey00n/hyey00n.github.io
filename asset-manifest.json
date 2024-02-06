@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.ef095e1d.css",
-    "main.js": "/static/js/main.0f41665d.js",
+    "main.js": "/static/js/main.66ffe1ac.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
     "static/media/Career-black.jpg": "/static/media/Career-black.f86de06b749fef941f98.jpg",
     "static/media/skill-black.jpg": "/static/media/skill-black.59cdfc6f33884e631da2.jpg",
     "static/media/캐핑쉐어.png": "/static/media/캐핑쉐어.24498d38383a583e1ca0.png",
     "static/media/web-telecom.jpg": "/static/media/web-telecom.aa490370cdbdb914e1f9.jpg",
     "static/media/web-kt.jpg": "/static/media/web-kt.acd511d1386ee9389899.jpg",
+    "static/media/web-kpop.jpg": "/static/media/web-kpop.6981908765cfc5c01ed1.jpg",
     "static/media/web-tarvel.jpg": "/static/media/web-tarvel.d5809fb3b6a5470ce400.jpg",
     "static/media/web-cake.jpg": "/static/media/web-cake.384110b6d72c8832d140.jpg",
     "static/media/web-absolute.jpg": "/static/media/web-absolute.af002bbaa17e60ac60b9.jpg",
-    "static/media/web-kpop.jpg": "/static/media/web-kpop.a49990e075608f27420c.jpg",
     "static/media/web-harry.jpg": "/static/media/web-harry.e5a5287bb6d0ad2805dc.jpg",
     "static/media/logo.png": "/static/media/logo.7208156a0292b3605f97.png",
     "index.html": "/index.html",
     "main.ef095e1d.css.map": "/static/css/main.ef095e1d.css.map",
-    "main.0f41665d.js.map": "/static/js/main.0f41665d.js.map",
+    "main.66ffe1ac.js.map": "/static/js/main.66ffe1ac.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef095e1d.css",
-    "static/js/main.0f41665d.js"
+    "static/js/main.66ffe1ac.js"
   ]
 }
