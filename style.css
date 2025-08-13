@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -70,8 +69,6 @@ body {
 .nav a:hover::after {
     width: 100%;
 }
-
-/* Status Indicator - Remove */
 
 /* Hero Section */
 .hero {
@@ -289,8 +286,20 @@ body {
 .work-slider {
     display: flex;
     gap: 60px;
-    animation: workSlide 20s linear infinite;
-    width: calc(500px * 8); /* 4개 프로젝트 * 2번 반복 */
+    animation: workSlide 25s linear infinite;
+}
+
+.work-slider:hover {
+    animation-play-state: paused;
+}
+
+@keyframes workSlide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 .work-item {
@@ -299,150 +308,202 @@ body {
     padding: 0;
     transition: all 0.3s ease;
     overflow: hidden;
-    min-width: 440px;
+    min-width: 400px;
     flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .work-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     border-color: #007bff;
-}
-
-@keyframes workSlide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-500px * 4)); /* 4개 프로젝트만큼 이동 */
-    }
-}
-
-.work-slider:hover {
-    animation-play-state: paused;
 }
 
 .project-preview {
     width: 100%;
     height: 300px;
-    background: #f8f9fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid #e8e8e8;
 }
 
 .project-preview::after {
-    content: '🖥️';
-    font-size: 4rem;
-    opacity: 0.2;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,0.1), rgba(0,0,0,0));
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.project-info {
-    padding: 40px;
+.work-item:hover .project-preview::after {
+    opacity: 1;
 }
 
-.project-details .project-type {
-    color: #007bff;
-    font-size: 0.8rem;
+/* 각 프로젝트별 배경 이미지 */
+.work-item:nth-child(1) .project-preview {
+    background-image: url('asset/img/01.png');
+}
+
+.work-item:nth-child(2) .project-preview {
+    background-image: url('asset/img/02.png');
+}
+
+.work-item:nth-child(3) .project-preview {
+    background-image: url('asset/img/03.png');
+}
+
+.work-item:nth-child(4) .project-preview {
+    background-image: url('asset/img/04.png');
+}
+
+.work-item:nth-child(5) .project-preview {
+    background-image: url('asset/img/05.png');
+}
+
+.work-item:nth-child(6) .project-preview {
+    background-image: url('asset/img/06.png');
+}
+
+/* 복제된 항목들도 같은 이미지 */
+.work-item:nth-child(7) .project-preview {
+    background-image: url('asset/img/01.png');
+}
+
+.work-item:nth-child(8) .project-preview {
+    background-image: url('asset/img/02.png');
+}
+
+.work-item:nth-child(9) .project-preview {
+    background-image: url('asset/img/03.png');
+}
+
+.work-item:nth-child(10) .project-preview {
+    background-image: url('asset/img/04.png');
+}
+
+.work-item:nth-child(11) .project-preview {
+    background-image: url('asset/img/05.png');
+}
+
+.work-item:nth-child(12) .project-preview {
+    background-image: url('asset/img/06.png');
+}
+
+/* Experience Section */
+.experience {
+    padding: 150px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-top: 1px solid #f0f0f0;
+}
+
+.experience-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.experience-item {
+    padding: 60px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+}
+
+.experience-period {
+    font-size: 0.9rem;
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 15px;
+    color: #007bff;
+    letter-spacing: 0.02em;
 }
 
-.project-details h3 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+.experience-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     color: #1a1a1a;
     font-weight: 400;
-    letter-spacing: 0.01em;
 }
 
-.project-details p {
+.experience-role {
+    font-size: 0.9rem;
     color: #666;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.experience-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
     font-size: 0.95rem;
     font-weight: 300;
 }
 
-.project-details .tech-stack {
+.experience-skills {
+    font-size: 0.85rem;
     color: #999;
-    font-size: 0.85rem;
-    margin-bottom: 25px;
     font-weight: 300;
 }
 
-.project-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 24px;
-    background: #1a1a1a;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 0;
-    font-size: 0.85rem;
-    font-weight: 400;
-    transition: all 0.3s ease;
-    letter-spacing: 0.02em;
-}
-
-.project-link:hover {
-    background: #007bff;
-    transform: translateY(-1px);
-}
-
-/* Notion Teaser */
-.notion-teaser {
-    background: #ffffff;
-    padding: 100px 60px;
-    text-align: center;
+.certification-section {
+    margin-top: 100px;
     border-top: 1px solid #f0f0f0;
+    padding-top: 60px;
 }
 
-.notion-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.notion-container h3 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #1a1a1a;
-    font-weight: 300;
-    letter-spacing: 0.01em;
-}
-
-.notion-container p {
-    color: #666;
+.certification-section h4 {
+    font-size: 1.2rem;
     margin-bottom: 40px;
-    line-height: 1.7;
-    font-size: 1.1rem;
-    font-weight: 300;
-}
-
-.notion-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 18px 40px;
-    background: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 0;
+    color: #1a1a1a;
     font-weight: 400;
-    transition: all 0.3s ease;
     letter-spacing: 0.02em;
 }
 
-.notion-link:hover {
-    background: #0056b3;
+.certification-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.certification-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s ease;
+}
+
+.certification-item:hover {
+    border-color: #007bff;
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.2);
+    box-shadow: 0 10px 40px rgba(0, 123, 255, 0.1);
+}
+
+.cert-name {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.cert-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 300;
 }
 
 /* Contact Section */
@@ -506,11 +567,36 @@ body {
     font-weight: 300;
 }
 
+.contact-message {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.contact-message p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.contact-message p:first-child {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .about-section {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+
+    .experience-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .work-item {
@@ -562,6 +648,10 @@ body {
         padding: 100px 30px;
     }
 
+    .experience {
+        padding: 100px 30px;
+    }
+
     .contact {
         padding: 100px 30px;
     }
@@ -572,6 +662,14 @@ body {
 
     .skills-track {
         animation-duration: 20s;
+    }
+
+    .work-item {
+        min-width: 280px;
+    }
+
+    .certification-list {
+        grid-template-columns: 1fr;
     }
 }
 
